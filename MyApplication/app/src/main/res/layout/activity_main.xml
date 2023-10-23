@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/rosaFondo"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    >
+
+    <TextView
+        android:id="@+id/conectar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conectar"
+        android:textColor="@color/blueText"
+        android:textSize="20sp"
+
+        />
+    <EditText
+        android:id="@+id/Usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/User"
+        android:fontFamily="monospace"
+
+        />
+    <EditText
+        android:id="@+id/Contraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/Pass"
+        android:fontFamily="monospace"
+
+        />
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="@string/logIn"
+        android:textOn="@string/logIn"
+        android:layout_margin="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/changePass"
+        android:textColor="@color/blueText"
+        android:textSize="20sp"
+        />
+
+
+
+</LinearLayout>

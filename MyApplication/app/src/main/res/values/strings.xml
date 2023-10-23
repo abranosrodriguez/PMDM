@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="User">Usuario</string>
+    <string name="Pass">Contraseña</string>
+    <string name="logIn">Iniciar Sesion</string>
+    <string name="changePass">¿Olvidaste la contraseña?</string>
+</resources>
